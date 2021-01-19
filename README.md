@@ -1,35 +1,37 @@
 # testdata
 
-Data set
+Based on [json-server](https://github.com/typicode/json-server) and [my-json-server](https://my-json-server.typicode.com/)
+
+## Data set
 http://my-json-server.typicode.com/carballosa/testdata
 
-All
+## All
 http://my-json-server.typicode.com/carballosa/testdata/posts
 
-One
+## One
 http://my-json-server.typicode.com/carballosa/testdata/posts/1
 
-Filter
+## Filter
 http://my-json-server.typicode.com/carballosa/testdata/posts?id=1&id=2
 
-Pagination
+## Pagination
 http://my-json-server.typicode.com/carballosa/testdata/posts?_limit=1&_page=2
 
-Sort
+## Sort
 http://my-json-server.typicode.com/carballosa/testdata/posts?_sort=description&_order=desc
 
-Operators
+## Operators
 http://my-json-server.typicode.com/carballosa/testdata/posts?id_gte=2
 http://my-json-server.typicode.com/carballosa/testdata/posts?title_like=2
 
-Full-text Search
+## Full-text Search
 http://my-json-server.typicode.com/carballosa/testdata/posts?q=3
 
-Navigate Relationships
+## Navigate Relationships
 http://my-json-server.typicode.com/carballosa/testdata/posts/1/comments
 
-Embed childs 
+## Embed childs 
 http://my-json-server.typicode.com/carballosa/testdata/posts/1?_embed=comments
 
-Expand parent
+## Expand parent
 http://my-json-server.typicode.com/carballosa/testdata/comments?_expand=post
