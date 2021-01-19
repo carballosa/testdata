@@ -42,10 +42,12 @@ http://my-json-server.typicode.com/carballosa/testdata/posts?title_like=2
 ```
 http://my-json-server.typicode.com/carballosa/testdata/posts?q=3
 ```
+
 ## Navigate relationships
 ```
 http://my-json-server.typicode.com/carballosa/testdata/posts/1/comments
 ```
+
 ## Embed childs 
 ```
 http://my-json-server.typicode.com/carballosa/testdata/posts/1?_embed=comments
