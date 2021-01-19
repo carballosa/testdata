@@ -38,11 +38,11 @@ http://my-json-server.typicode.com/carballosa/testdata/posts?id_gte=2
 http://my-json-server.typicode.com/carballosa/testdata/posts?title_like=2
 ```
 
-## Full-text Search
+## Full-text search
 ```
 http://my-json-server.typicode.com/carballosa/testdata/posts?q=3
 ```
-## Navigate Relationships
+## Navigate relationships
 ```
 http://my-json-server.typicode.com/carballosa/testdata/posts/1/comments
 ```
